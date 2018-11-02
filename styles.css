@@ -4,8 +4,14 @@ to 90% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
-  width: 90vw;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr;
+  grid-gap: 1rem;
+  font-family: 'Ubuntu', sans-serif;
 }
+
 
 header {
   background: #a2d492;
