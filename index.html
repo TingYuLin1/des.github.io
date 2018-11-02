@@ -4,58 +4,71 @@
 <head>
   <meta charset="UTF-8">
   <title>Portal Page</title>
-<style>
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: .2fr 1.6fr .2fr;
-  max-width: 90vw;
-  margin: auto;
-}
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: .2fr 1.6fr 0.2fr;
+      max-width: 90vw;
+      margin: auto;
+    }
 
-header {
-  grid-row: 1;
-  grid-column: 1 / 5;
-  background-color: #4CA6A6;
-  padding-left: 3rem;
-  padding-bottom: 1rem;
-  border: solid;
-  border-color:#005959;
-}
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    footer,
+    ul,
+    ol {
+      font-family: 'Ubuntu', sans-serif;
+    }
 
-aside {
+    header {
+      grid-row: 1;
+      grid-column: 1 / 5;
+      background-color: #4CA6A6;
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+      border: solid;
+      border-color: #005959;
+    }
 
-  min-height: 50vh;
-  background-color: #828c89;
-  grid-row: 2;
-  grid-column: 1 / 2;
-}
+    #p1 {
+      grid-row: 2;
+      grid-column: 1 / 2;
+      background-color: #b3cbcc;
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+    }
 
-#p1 {
-  grid-row: 2;
-  grid-column: 2 / 3;
-  background-color: #b3cbcc;
-  padding-left: 3rem;
-  padding-bottom: 1rem;
-}
+    #p2 {
+      grid-row: 2;
+      grid-column: 2 / 3;
+      background-color: #ceb988;
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+    }
 
-#p2 {
-  grid-row: 2;
-  grid-column: 3 / 4;
-  background-color: #ceb988;
-  padding-left: 3rem;
-  padding-bottom: 1rem;
-}
+    #p3 {
+      grid-row: 2;
+      grid-column: 3/ 4;
+      background-color: #d8b8ad;
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+    }
 
-#p3{
-  grid-row: 2;
-  grid-column: 4 / 5;
-  background-color: #d8b8ad;
-  padding-left: 3rem;
-  padding-bottom: 1rem;
-}
+    aside {
+      min-height: 50vh;
+      background-color: #828c89;
+      grid-row: 2;
+      grid-column: 4 / 5;
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+    }
 
-</style>
+  </style>
 
 </head>
 
@@ -65,6 +78,7 @@ aside {
     <header>
       <h1>Home
       <img src="https://res.cloudinary.com/emazecom/image/fetch/c_limit,a_ignore,w_240,h_80/http%3A%2F%2Fgetmespark.com%2Fwp-content%2Fuploads%2Fwelcome_thumb_tacks_1600_clr_9661.png" alt="images">
+
     </h1>
     </header>
 
@@ -128,10 +142,11 @@ aside {
         <li><a href="https://www.instagram.com/annylin880710/">My Page</a></li>
       </ul>
     </aside>
-</div>
-    <footer>
-      <p>Ting-Yu Lin | <a href="mailto:&#097;&#116;&#121;&#108;&#105;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#097;&#116;&#121;&#108;&#105;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a> | 530-752-2004</p>
-    </footer>
+  </div>
+  <footer>
+    <p>Ting-Yu Lin | <a href="mailto:&#097;&#116;&#121;&#108;&#105;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#097;&#116;&#121;&#108;&#105;&#110;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a>
+      | 530-752-2004</p>
+  </footer>
 
 </body>
 
