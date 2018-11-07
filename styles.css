@@ -11,12 +11,21 @@ in the middle of the browser no matter how wide you stretch the browser*/
   grid-gap: 1rem;
   font-family: 'Ubuntu', sans-serif;
 }
-
-
+/*
+background-image: url(https://www.sistemex.com/estrategia-digital/wp-content/uploads/2015/09/html5.jpg);
+  width: auto;
+  height: auto;
+  opacity: 0.7;
+  */
 header {
-  background: #a2d492;
-  padding: 2rem;
-  text-align: center;
+  background: #f9dacf;
+  padding: 3rem;
+    text-align: center;
+    color: #e04f35;
+    font-size: 2em;
+}
+body{
+  background: #f9f1ef;
 }
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
@@ -24,13 +33,13 @@ and at larger screen widths it spreads more horizontally.
 And justify-content centers flex blox content*/
 nav ul {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
   list-style-type: none;
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: #11b840;
+  background: #fcc8b5;
   height: 2rem;
   width: 36rem;
   padding-top: 1rem;
@@ -43,25 +52,28 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.2em;
-  color: #e7d067;
+  color: #f95e4d;
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background: #e9892f;
+  background: #f9836b;
 }
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
 .locationmarker {
-  background: #4b8552;
+  background: #fcdcd4;
 }
 
+h2{
+  font-size:2em;
+}
 article {
   padding-left: 2rem;
   padding-right: 2rem;
 }
 
 footer {
-  background: #a2d492;
+  background: #f9dacf;
   padding: 2rem;
   text-align: center;
 }
