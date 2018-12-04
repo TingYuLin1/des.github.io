@@ -1,0 +1,125 @@
+body {
+  /* background-image: url('watercolorpaper.jpg'); */
+  /* background-size: auto auto; */
+  /* background-color: transparent;
+  background-repeat: no-repeat; */
+  font-family: above demo, sans-serif;
+}
+
+.pagecontainer {
+  background-image: url('watercolorpaper.jpg');
+  background-color: transparent;
+  background-size: auto auto;
+  margin: auto;
+  width: 100vw;
+}
+
+.image-container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0.5rem;
+  max-width: 75vw;
+  margin: auto;
+  font-size: 1.5em;
+  padding-bottom: 5em;
+}
+
+.about {
+  border-top-color: #090c48;
+  border-top-width: 1.5px;
+  border-top-style: solid;
+  border-bottom-color: #090c48;
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid;
+  padding-bottom: 1rem;
+}
+
+.imagebox {
+  padding: 0.7rem;
+  background-color: #ccc9;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.portrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: #ccc9;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 2em;
+  /* border-top-color: #090c48;
+  border-top-width: 1.5px;
+  border-top-style: solid;
+  border-bottom-color: #090c48;
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid; */
+  padding-bottom: 2rem;
+  border-bottom: #090c48 1.5px solid;
+}
+
+nav ul li {
+  display: flex;
+  color: #0A0A0A;
+  opacity: 0.7;
+  align-items: center;
+  text-align: center;
+  padding: 0.5em;
+  border:2.5px dotted;
+  border-color: #9182aa;
+  border-radius: 30px;
+}
+
+p {
+  font-family: Penna, serif;
+}
+
+h1 {
+  color: #dba3a3;
+  text-align: center;
+  font-size: 5em;
+  text-shadow: #36607e 4px 4px;
+  padding: 0.5rem;
+  margin-bottom: -2px;
+
+}
+
+h2 {
+  color: #586061;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bolder;
+}
+
+h3 {
+  color: #767289;
+  text-align: center;
+  font-size: 2em;
+    border-bottom: #090c48 1.5px solid;
+    padding-bottom: 2rem;
+}
+
+h4 {
+  color: #646464;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  border-bottom: #090c48 1.5px solid;
+
+
+}
