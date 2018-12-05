@@ -78,6 +78,8 @@ nav ul {
   font-size: 1em;
   padding-bottom: 2rem;
   border-bottom: #090c48 1.5px solid;
+  border-top: #090c48 1.5px solid;
+  padding-top: 2rem;
 }
 
 nav ul li {
@@ -118,8 +120,7 @@ h3 {
   color: #767289;
   text-align: center;
   font-size: 1.5em;
-  border-bottom: #090c48 1.5px solid;
-  padding-bottom: 2rem;
+
 }
 
 h4 {
@@ -127,6 +128,11 @@ h4 {
   text-align: center;
   font-family: trench, sans-serif;
   font-size: 1.8rem;
+}
+h5{
+  color:rgb(97, 118, 125);
+  text-align: center;
+  font-size: 1.3em
 }
 
 footer {
