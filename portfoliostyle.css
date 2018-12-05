@@ -1,5 +1,5 @@
 body {
-  font-family: above demo, sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 }
 
 .pagecontainer {
@@ -13,7 +13,7 @@ body {
 .image-container-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
   grid-gap: 0.5rem;
   max-width: 75vw;
   margin: auto;
@@ -50,7 +50,14 @@ body {
   padding: 0.7rem;
   background-color: #e5ddf0;
 }
-
+.imagebox5 {
+  padding: 0.7rem;
+  background-color: #e5ddf0;
+}
+.imagebox6 {
+  padding: 0.7rem;
+  background-color: #e5ddf0;
+}
 img {
   width: 100%;
   border-radius: 5px;
@@ -65,7 +72,9 @@ img {
   background-color: #e5ddf0;
   font-size: 1.5em;
 }
-
+a{
+  color:rgb(16, 81, 97);
+}
 header {
   border-top: #090c48 1.5px solid;
 }
@@ -96,7 +105,8 @@ nav ul li {
 }
 
 p {
-  font-family: Penna, sans-serif;
+  font-family: 'Exo 2', sans-serif;
+  /* font-family: penna, sans-serif; */
   font-size: 1em;
 }
 
@@ -126,7 +136,6 @@ h3 {
 h4 {
   color: #646464;
   text-align: center;
-  font-family: trench, sans-serif;
   font-size: 1.8rem;
 }
 h5{
@@ -146,7 +155,7 @@ footer {
     width: 100%;
     float: none;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 
   .imagebox1 {
@@ -168,4 +177,6 @@ footer {
     grid-column: 2;
     grid-row: 2;
   }
+  .imagebox5{}
+    .imagebox6{}
 }
