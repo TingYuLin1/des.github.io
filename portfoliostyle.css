@@ -89,7 +89,7 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
-  font-size: 1em;
+  font-size: 1.5em;
   padding-bottom: 2rem;
   border-bottom: #090c48 1.5px solid;
   border-top: #090c48 1.5px solid;
@@ -111,13 +111,13 @@ nav ul li {
 
 p {
   font-family: penna, sans-serif;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 h1 {
   color: #acb9ce;
   text-align: center;
-  font-size: 3.3em;
+  font-size: 3.5em;
   text-shadow: #137b69 3px 3px;
   padding: 0.5rem;
   margin-bottom: -2px;
@@ -126,14 +126,14 @@ h1 {
 h2 {
   color: #586061;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 2.5em;
   font-weight: bolder;
 }
 
 h3 {
   color: #767289;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h4 {
@@ -145,7 +145,7 @@ h4 {
 h5 {
   color: rgb(97, 118, 125);
   text-align: center;
-  font-size: 1.3em
+  font-size: 1.5em
 }
 
 footer {
@@ -191,8 +191,14 @@ footer {
     grid-column: 2;
     grid-row: 3;
   }
-
+nav ul{
+  font-size: 2em;
+}
   p {
     font-size: 1.5em;
   }
+  h1{font-size:5em;}
+    h2{font-size:3em;}
+      h3{font-size:2.5em}
+        h5{font-size:2.5em}
 }
