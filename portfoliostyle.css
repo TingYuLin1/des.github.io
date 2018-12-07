@@ -21,16 +21,6 @@ body {
   padding-bottom: 5em;
 }
 
-.about {
-  border-top-color: #090c48;
-  border-top-width: 1.5px;
-  border-top-style: solid;
-  border-bottom-color: #090c48;
-  border-bottom-width: 1.5px;
-  border-bottom-style: solid;
-  padding-bottom: 2rem;
-}
-
 .imagebox1 {
   padding: 0.7rem;
   background-color: #e5ddf0;
@@ -61,17 +51,14 @@ body {
   background-color: #e5ddf0;
 }
 
-.top{
-  position: sticky;
+ .me {
+  border-top-color: #090c48;
+  border-top-width: 1.5px;
+  border-top-style: solid;
   border-bottom-color: #090c48;
   border-bottom-width: 1.5px;
   border-bottom-style: solid;
-  padding-bottom: 1rem;
-}
-
-img {
-  width: 100%;
-  border-radius: 5px;
+  padding-bottom: 2rem;
 }
 
 .portrait {
@@ -83,14 +70,37 @@ img {
   background-color: #e5ddf0;
   font-size: 1.5em;
 }
+.portrait p
+{
+  font-size: 1em;
+}
+.top{
+  position: sticky;
+  border-bottom-color: #090c48;
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid;
+  padding-bottom: 1rem;
+}
+
+.footerfont {
+  color: rgb(97, 118, 125);
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0.5rem;
+}
+
+header {
+  border-top: #090c48 1.5px solid;
+}
 
 a {
   color: rgb(16, 81, 97);
   text-decoration: none;
 }
 
-header {
-  border-top: #090c48 1.5px solid;
+img {
+  width: 100%;
+  border-radius: 5px;
 }
 
 nav ul {
@@ -98,10 +108,10 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
-  padding-bottom: 2rem;
   border-bottom: #090c48 1.5px solid;
   border-top: #090c48 1.5px solid;
-  padding-top: 2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
 }
 
 nav ul li {
@@ -111,7 +121,7 @@ nav ul li {
   align-items: center;
   text-align: center;
   padding: 0.8em;
-  font-size: 2.1em;
+  font-size: 1.8em;
 }
 
 p {
@@ -122,46 +132,36 @@ font-family: 'Barlow', sans-serif;
 h1 {
   color: #427eb6;
   text-align: center;
-  font-size: 5em;
-  text-shadow: #9bd090 3px 3px;
-  padding: 0.5rem;
-  margin-bottom: -15px;
-
+  font-size: 4.5em;
+  text-shadow: #27f1dd 5px 5px;
+  margin-bottom: -50px;
 }
 
 h2 {
   color: #586061;
   text-align: center;
   font-size: 3.3em;
-  font-weight: bolder;
 }
 
 h3 {
-  color: #767289;
+  color: #928ea4;
   text-align: center;
   font-size: 1.9em;
-  margin-bottom: 6px;
 }
 
 h4 {
-  color: #646464;
+  color: #7d7a7a;
   text-align: center;
   font-size: 2.7em;
 }
 
-.footerfont {
-  color: rgb(97, 118, 125);
-  text-align: center;
-  font-size: 1.5em;
-  padding: 0.5rem;
-}
 
 footer {
   text-align: center;
   border-bottom: #090c48 1.5px solid;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 850px) {
   .image-container-grid {
     display: grid;
     width: 100%;
@@ -200,13 +200,13 @@ footer {
     grid-row: 3;
   }
 nav ul{
-  font-size: 2em;
+  font-size: 1.5em;
 }
   p {
     font-size: 1.5em;
   }
-  h1{font-size:5em;}
-    h2{font-size:4em;}
-      h3{font-size:2.5em}
-        h5{font-size:2.5em}
+  h1{font-size:7.5em;}
+    h2{font-size:6em;}
+      h3{font-size:5.5em}
+        h4{font-size:6.5em}
 }
