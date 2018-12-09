@@ -51,7 +51,7 @@ body {
   background-color: #e5ddf0;
 }
 
- .me {
+.me {
   border-top-color: #090c48;
   border-top-width: 1.5px;
   border-top-style: solid;
@@ -71,12 +71,11 @@ body {
   font-size: 1.5em;
 }
 
-.portrait p
-{
+.portrait p {
   font-size: 0.7em;
 }
 
-.top{
+.top {
   position: sticky;
   border-bottom-color: #090c48;
   border-bottom-width: 1.5px;
@@ -127,7 +126,7 @@ nav ul li {
 }
 
 p {
-font-family: 'Barlow', sans-serif;
+  font-family: 'Barlow', sans-serif;
   font-size: 1em;
 }
 
@@ -157,7 +156,6 @@ h4 {
   text-align: center;
   font-size: 2.7em;
 }
-
 
 footer {
   text-align: center;
@@ -204,19 +202,31 @@ footer {
     grid-row: 3;
   }
 
-  .portrait p
-  {
+  .portrait p {
     font-size: 1em;
   }
 
-nav ul{
-  font-size: 2em;
-}
+  nav ul {
+    font-size: 2em;
+  }
+
   p {
     font-size: 1em;
   }
-  h1{font-size:7.5em;}
-    h2{font-size:6em;}
-      h3{font-size:5.5em}
-        h4{font-size:6.5em}
+
+  h1 {
+    font-size: 7.5em;
+  }
+
+  h2 {
+    font-size: 6em;
+  }
+
+  h3 {
+    font-size: 5.5em
+  }
+
+  h4 {
+    font-size: 6.5em
+  }
 }
