@@ -134,7 +134,7 @@ h1 {
   text-align: center;
   font-size: 4em;
   text-shadow: #27f1dd 5px 5px;
-  margin-bottom: -50px;
+  margin-bottom: -30px;
 }
 
 h2 {
@@ -147,6 +147,7 @@ h3 {
   color: #928ea4;
   text-align: center;
   font-size: 1.9em;
+  padding-top: 1.5rem;
 }
 
 h4 {
@@ -199,11 +200,17 @@ footer {
     grid-column: 2;
     grid-row: 3;
   }
+
+  .portrait p
+  {
+    font-size: 1em;
+  }
+
 nav ul{
-  font-size: 1.5em;
+  font-size: 2em;
 }
   p {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   h1{font-size:7.5em;}
     h2{font-size:6em;}
