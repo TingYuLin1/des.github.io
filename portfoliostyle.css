@@ -70,10 +70,12 @@ body {
   background-color: #e5ddf0;
   font-size: 1.5em;
 }
+
 .portrait p
 {
   font-size: 0.7em;
 }
+
 .top{
   position: sticky;
   border-bottom-color: #090c48;
@@ -162,6 +164,7 @@ footer {
   border-bottom: #090c48 1.5px solid;
 }
 
+/* media inquiries for desktop version */
 @media (min-width: 850px) {
   .image-container-grid {
     display: grid;
