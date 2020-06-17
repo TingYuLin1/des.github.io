@@ -133,9 +133,9 @@ p {
 h1 {
   color: #427eb6;
   text-align: center;
-  font-size: 4em;
-  text-shadow: #27f1dd 5px 5px;
-  margin-bottom: -30px;
+  font-size: 3.0em;
+  text-shadow: #ffffff 5px 5px;
+  /* margin-bottom: -15px; */
 }
 
 h2 {
@@ -154,7 +154,7 @@ h3 {
 h4 {
   color: #7d7a7a;
   text-align: center;
-  font-size: 2.7em;
+  font-size: 2.0rem;
 }
 
 footer {
@@ -215,15 +215,15 @@ footer {
   }
 
   h1 {
-    font-size: 7.5em;
+    font-size: 6rem;
   }
 
   h2 {
-    font-size: 6em;
+    font-size: 6rem;
   }
 
   h3 {
-    font-size: 5.5em
+    font-size:4rem
   }
 
   h4 {
