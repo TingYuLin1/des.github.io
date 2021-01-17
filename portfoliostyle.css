@@ -212,6 +212,7 @@ footer {
     grid-column: 1;
     grid-row: 2;
     padding: 2em 5rem;
+    margin: 1em;
   }
 
   .imagebox4 {
@@ -239,7 +240,7 @@ footer {
     font-size: 1em;
   }
 
-  .portrait {  
+  .me {  
     width: 60vw;
   }
 
