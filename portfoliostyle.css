@@ -147,6 +147,7 @@ h2 {
   color: #586061;
   text-align: center;
   font-size: 3.3em;
+  font-weight: 400;
 }
 
 h3 {
@@ -259,6 +260,7 @@ footer {
 
   h2 {
     font-size: 6rem;
+    font-weight: 400;
   }
 
   h3 {
